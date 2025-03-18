@@ -1,0 +1,40 @@
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; 
+    background-color:#f9f9f9; /* Light gray background */
+    text-align: center;
+    padding-left: 65%;
+  }
+  
+  /* Text Styling */
+  .headings {
+    font-size: 2rem;
+    text-align: right;
+    
+  }
+
+  .headings {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px; /* Reduce space below text */
+  }
+  
+  /* Button Styling */
+  .btn {
+    background-color: #BEBEBE;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
