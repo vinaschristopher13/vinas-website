@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-<!-- Javascript -->
+  <!-- Javascript -->
 
   <script src="js/images.js"></script>
 
@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/education.css">
   <link rel="stylesheet" href="css/experience.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact.css">
 
 </head>
 
@@ -58,7 +59,7 @@
       <!-- <button class="btn" onClick="parent.open
             ('https://tinyurl.com/3myp7ten')">Hire me!</button> -->
 
-      <button class="btn">Hi, Kumusta!</button>
+      <button class="btn">Hello World!</button>
 
 
     </div>
@@ -180,7 +181,7 @@
     <p style="font-family: Arial;">November 2022 - April 2023</p>
     <p style="font-family: Arial;">Mentored & Handled BA documentation, including test cases, Conceptual System Design,
       Content Management System, and Core Web Vitals checks.</p>
- 
+
     <div id="container">
       <div class="block">
         <img src="Logo/DTI.png" alt="DTI Logo">
@@ -191,17 +192,37 @@
     <p style="font-family: Arial;">Intern at Department of Trade and Industry</p>
     <p style="font-family: Arial;">September 2025 - Present</p>
     <p style="font-family: Arial;">Consumer Protection and Advocacy Bureau</p>
-    <p style="font-family: Arial;">CPAB's core function is to advance consumer welfare by promoting fair trade practices, 
-      ensuring product safety, and educating consumers to make informed choices.</p>   
-    
+    <p style="font-family: Arial;">CPAB's core function is to advance consumer welfare by promoting fair trade
+      practices,
+      ensuring product safety, and educating consumers to make informed choices.</p>
+
   </section>
 
-
-  <!--Footer and Contact Section -->
+   <!-- Contact Page -->
 
   <section id="contact">
+    <h1>CONTACT</h1>
 
+    <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Get in touch, let's talk.</h4>
 
+    <div class="container">
+      <form class="form" action="https://formspree.io/f/mqkjykwa" method="POST" onsubmit="validation()">
+        <input type="fname" name="fname" class="input" placeholder="Enter your Name" id="name" required>
+        <input type="email" name="email" class="input" placeholder="Enter your E-mail" id="email" required>
+        <br>
+        <textarea type="message" name="message" id="message" rows="12" cols="40" placeholder="Enter your Message"
+          required></textarea>
+
+        <button class="btn" name="save" type="submit">Send</button>
+
+      </form>
+    </div>
+
+  </section>
+
+ <!-- Footer Page -->
+
+  <section id="footer">
     <footer class="footer-distributed">
 
       <div class="footer-left">
@@ -215,7 +236,7 @@
           <a href="#education">Education</a>
           <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
-         
+
 
         </p>
 
@@ -226,12 +247,12 @@
 
         <div>
           <i class="fa fa-map-marker"></i>
-          <p><span> 817 J. Marzan St. Sampaloc, Manila</span>Philippines</p>
+          <p><span> 817 J. Marzan St. Sampaloc, Manila</span> Philippines</p>
         </div>
 
         <div>
           <i class="fa fa-phone"></i>
-          <p>+63-956-593-4073</p>
+          <p>+63-956-054-6620</p>
         </div>
 
         <div>
@@ -246,18 +267,20 @@
         <p class="footer-company-about">
           <span>About</span>
 
-          <p>It shows here, my website that indicates here is my experience. Also, to show my skills in building a
+        <p>It shows here, my website that indicates here is my experience. Also, to show my skills in building a
           mobile and web applications.</p>
 
 
         <div class="footer-icons">
-          <a href="https://ieeexplore.ieee.org/abstract/document/10071665" target="_blank"><i class="fab fa-google"></i></a>
           <a href="https://facebook.com/vinaschristopher11" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/vins_christopher/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/christopher-vi%C3%B1as-3a52a6197/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/christopher-vi%C3%B1as-3a52a6197/" target="_blank"><i
+              class="fab fa-linkedin-in"></i></a>
           <a href="https://github.com/vinaschristopher" target="_blank"><i class="fab fa-github"></i></a>
-      </div>
-      
+          <a href="https://ieeexplore.ieee.org/abstract/document/10071665" target="_blank"><i
+              class="fab fa-google"></i></a>
+        </div>
+
       </div>
 
 
@@ -282,5 +305,3 @@
 </body>
 
 </html>
-
-
