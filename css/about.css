@@ -26,6 +26,7 @@
   }
   
   /* Skills Section */
+
   h2 {
     margin-top: 30px;
     font-size: 20px;
@@ -48,13 +49,14 @@
     width: 250px;
     text-align: left;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
   }
 
   .column:hover{
     transform: translateY(-5px);
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
   }
-
+  
   .column ul {
     list-style: none;
     padding: 0;
@@ -84,4 +86,3 @@
     }
   }
   
-
