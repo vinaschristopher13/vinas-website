@@ -27,7 +27,7 @@
   
   /* Skills Section */
 
-  h2 {
+  /* h2 {
     margin-top: 30px;
     font-size: 20px;
     color: #333;
@@ -76,7 +76,18 @@
     left: 0;
     color: #007BFF;
     font-size: 16px;
-  }
+  } */
+
+
+#prog img{
+  max-width: 14%;
+  height: auto;
+  padding: 2em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.15);
+}
+
   
   /* Responsive */
   @media (max-width: 768px) {
@@ -86,3 +97,4 @@
     }
   }
   
+
